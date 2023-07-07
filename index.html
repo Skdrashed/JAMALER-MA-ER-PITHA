@@ -4,8 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jamaler ma er pitha</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form action="">
+                <label for="name">Your Name:
+                    <input id="name" type="text" placeholder="Your Name">
+                </label>
+                <label for="email">Your Email:
+                    <input id="email" type="email" placeholder="Your email">
+                </label>
+                <label for="password">Your Password:
+                    <input id="password" type="password" placeholder="Your password">
+                </label>
+                <fieldset>
+                    <legend>Pick One pitha</legend>
+                    <label for="chitoy">Chitoy
+                        <input type="radio" name="pitha" id="chitoy">
+                    </label>
+                    <label for="vapa">vapa
+                        <input type="radio" name="pitha" id="vapa">
+                    </label>
+                    <label for="puri">puri
+                        <input type="radio" name="vaja" id="puri">
+                    </label>
+                    <label for="porata">porata
+                        <input type="radio" name="vaja">
+                    </label>
+                
+                </fieldset>
+                <fieldset>
+                    <legend>Pick one or more vorta</legend>
+                    <label for="sorisha">
+                        <input type="checkbox" name="vorta" id="sorisha">Sorisha
+                    </label>
+                    <label for="alu">
+                        <input type="checkbox" name="vorta" id="alu">Alu
+                    </label>
+
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
